@@ -86,3 +86,44 @@ button.Button-pink {
   background: #fce7f3;
   color: #9d174d;
 }
+
+/* Banner component */
+.banner {
+  display: flex;
+  align-items: start;
+  margin: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.banner-p-and-h4 {
+  margin-left: 16px;
+}
+
+.banner h4 {
+  margin-top: 0;
+}
+
+.banner-success {
+  background: #ecfdf5;
+}
+
+.banner-success h4 {
+  color: #065f46;
+}
+
+.banner-success p {
+  color: #047857;
+}
+
+.banner-warning {
+  background: #fffbeb;
+}
+
+.banner-warning h4 {
+  color: #92400e;
+}
+
+.banner-warning p {
+  color: #b45309;
+}

@@ -61,6 +61,7 @@ function App() {
         </div>
       </section>
       <section className="banner-section">
+        <h2>Multi Line</h2>
         {messages.map((message) => (
           <Banner theme={message.status}>
             <Banner.Title>{message.title}</Banner.Title>
@@ -70,7 +71,13 @@ function App() {
             </Banner.Message>
           </Banner>
         ))}
-      </section>{" "}
+        <h2>Single Line</h2>
+        {messages.map((message) => (
+          <Banner theme={message.status}>
+            <Banner.Title>{message.title}</Banner.Title>
+          </Banner>
+        ))}
+      </section>
     </>
   );
 }
