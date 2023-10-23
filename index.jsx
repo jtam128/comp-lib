@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 import Button from "./components/Button/Button";
 import Banner from "./components/Banner/index";
 import Card from "./components/Card/index";
+import Testimonial from "./components/Testimonial/index";
 // import Banner from "./components/Banner/Banner";
 // import BannerMessage from "./components/Banner/BannerMessage";
 // import BannerTitle from "./components/Banner/BannerTitle";
@@ -89,6 +90,16 @@ function App() {
             magna sit morbi lobortis.
           </Card.Message>
         </Card>
+      </section>
+
+      <section className="testimonial-section">
+        <Testimonial name="May Anderson" title="Workcation, CTO">
+          <Testimonial.Message>
+            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
+            in laborum sed rerum et corporis.”
+          </Testimonial.Message>
+        </Testimonial>
       </section>
     </>
   );
