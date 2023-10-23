@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 // import Star from "./components/Star"
 import Button from "./components/Button/Button";
 import Banner from "./components/Banner/index";
+import Card from "./components/Card/index";
 // import Banner from "./components/Banner/Banner";
 // import BannerMessage from "./components/Banner/BannerMessage";
 // import BannerTitle from "./components/Banner/BannerTitle";
@@ -60,6 +61,7 @@ function App() {
           </div>
         </div>
       </section>
+
       <section className="banner-section">
         <h2>Multi Line</h2>
         {messages.map((message) => (
@@ -77,6 +79,16 @@ function App() {
             <Banner.Title>{message.title}</Banner.Title>
           </Banner>
         ))}
+      </section>
+
+      <section className="card-section">
+        <Card icon="" iconBackgroundColor="">
+          <Card.Title>Easy Deployment</Card.Title>
+          <Card.Message>
+            Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
+            magna sit morbi lobortis.
+          </Card.Message>
+        </Card>
       </section>
     </>
   );

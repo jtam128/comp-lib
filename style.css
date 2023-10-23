@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: Inter;
+  background: gainsboro;
 }
 
 /* start */
@@ -126,4 +127,49 @@ button.Button-pink {
 
 .banner-warning p {
   color: #b45309;
+}
+
+/* Card component */
+.card {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.card-icon {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+
+  position: absolute;
+  top: -30;
+  /* left: 0; */
+}
+
+.card-contents {
+  border-radius: 8px;
+  background: #f9fafb;
+  text-align: center;
+  padding: 25px 24px 32px 24px;
+  width: 336px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-contents:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.card-contents h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.card-contents p {
+  color: #6b7280;
 }

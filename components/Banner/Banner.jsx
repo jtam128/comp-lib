@@ -11,7 +11,7 @@ export default function Banner({ children, theme }) {
     <img
       src={`./images/${themeClass}.svg`}
       className="banner-icon"
-      alt={`${themeClass} icon`}
+      alt={`${themeClass}-icon`}
     />
   );
 
