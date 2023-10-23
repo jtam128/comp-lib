@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+}
+
+/* start */
+.button-title,
+.banners-title {
+  text-align: center;
+}
+.banners-subtitle {
+  margin: 20px;
+}
+.button-square {
+  display: flex;
+  align-items: center;
+}
+.button-pill {
+  display: flex;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 9px 17px;
+  margin: 9px 17px;
+  line-height: 20px;
+  border: none;
+}
+
+button.Button-square {
+  border-radius: 4px;
+}
+button.Button-pill {
+  border-radius: 12px;
+}
+
+button.Button-sm {
+  padding: 7px 11px;
+  font-size: 12px;
+}
+
+button.Button-lg {
+  padding: 13px 25px;
+}
+
+button.Button-gray {
+  background: #f3f4f6;
+}
+
+button.Button-red {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+button.Button-yellow {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+button.Button-green {
+  background: #d1fae5;
+  color: #065f46;
+}
+button.Button-blue {
+  background: #dbeafe;
+  color: #1e40af;
+}
+button.Button-indigo {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+button.Button-purple {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+button.Button-pink {
+  background: #fce7f3;
+  color: #9d174d;
+}
