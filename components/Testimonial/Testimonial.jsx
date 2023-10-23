@@ -13,9 +13,9 @@ export default function Banner({ children, name, title }) {
   return (
     <div className="testimonial">
       {logo}
-      <div>
+      <div className="testimonial-content">
         {children}
-        <div className="testimonial-content">
+        <div className="testimonial-subcontent">
           <p className="test-name">{name}</p>
           <p className="divider"> / </p>
           <p className="test-title">{title}</p>
