@@ -180,6 +180,9 @@ button.Button-pink {
   background: #f9fafb;
   margin: 30px;
   padding: 60px;
+  background-image: url(images/dots.svg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
 }
 
 .testimonial-msg {
@@ -208,8 +211,12 @@ button.Button-pink {
 }
 
 @media screen and (max-width: 800px) {
+  .backgroundImage {
+    background-image: url(images/dots.svg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+  }
   .testimonial {
-    background: #ced6d4;
     margin: 30px auto;
     padding-left: 10px;
     padding-right: 10px;

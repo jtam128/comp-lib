@@ -21,6 +21,7 @@ export default function Banner({ children, name, title }) {
           <p className="test-title">{title}</p>
         </div>
       </div>
+      <div id="backgroundImage"></div>
     </div>
   );
 }
