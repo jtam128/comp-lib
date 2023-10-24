@@ -1,4 +1,4 @@
-# co9754c878244a6539212904c
+# Component Library
 
 Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
 
@@ -7,9 +7,10 @@ Quick start:
 ```
 $ npm install
 $ npm start
-````
+```
 
 Head over to https://vitejs.dev/ to learn more about using vite
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
